@@ -1,0 +1,187 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+/* Header */
+#cabecera{
+    display: inline-block;
+    width: 100%;
+}
+
+nav{
+    float: left;
+    clear: both;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: table-cell;
+	width: 10%;
+	text-align: center;
+    border: thin solid black;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+nav ul{
+    padding-left: 1.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 0em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: violet;
+}
+
+#cabecera form #busqueda {
+    float: left;
+    width: 40%;
+    margin: 1.5em;
+}
+
+.iconos_textos {
+    float: left;
+    display: grid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+}
+
+
+/*
+header form #busqueda {
+    width: 500%;
+}*/
+
+/* Zona del About */
+
+#about {
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 10px;
+    background: cornsilk;
+}
+
+#about article{
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 4em;
+}
+
+#about aside{
+    width: 50%;
+    float: left;
+    display: block;
+}
+#about img{
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Zona de Galeria */
+#galery {
+    display: grid;
+    width: 100%;
+}
+
+#galery .contenedor {
+    display: table-cell;
+}
+
+#galery .contenedor img{
+    width: 15%;
+    margin-left: 0.5em;
+
+}
+
+/* Zona de los Simbolos */
+#simbolos {
+    display: grid;
+}
+
+#simbolo {
+    display: table-cell;
+    width: 100%;
+}
+
+.iconos_simbolos {
+    display: grid;
+    float: left;
+    margin: 1em;
+    width: 25%;
+    padding: 1em;
+}
+
+.iconos_descripcion{
+    width: 75%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Team */
+#teams{
+    width: 100%;
+    display: grid;
+    float: left;
+}
+
+#teams .contenedor {
+    width: 100%;
+    display: flex;
+}
+
+.team {
+    width: 30%;
+    display: grid;
+    margin: 1em;
+}
+
+.team img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+#pie *{
+    border: 1px black solid;
+}
+
+#pie {
+    width: 100%;
+    display: flex;
+}
+
+.cont_pie {
+    width: 20%;
+    display: grid;
+    margin: auto;
+}
+
+.cont_pie img{
+    width: 100px;
+    height: 100px;
+}
