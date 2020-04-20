@@ -132,11 +132,20 @@ header form #busqueda {
     padding: 1em;
 }
 
+.iconos_simbolos img{
+    margin: auto;
+    width: 75%;
+}
+
+.iconos_simbolos #escudo{
+    width: 45%;
+}
+
 .iconos_descripcion{
     width: 75%;
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
+    padding: 2.5em;
 }
 
 /* Team */
@@ -166,9 +175,11 @@ header form #busqueda {
 }
 
 /* Footer */
+/*
 #pie *{
     border: 1px black solid;
 }
+*/
 
 #pie {
     width: 100%;
@@ -180,8 +191,43 @@ header form #busqueda {
     display: grid;
     margin: auto;
 }
-
 .cont_pie img{
-    width: 100px;
-    height: 100px;
+    margin: auto;
+    width: auto;
+    padding: 0.5em 0.5em;
+}
+
+.cont_pie #logo_pie {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+.cont_pie #logo_pie img{
+    width: 50px;
+    height: 50px;
+}
+
+.cont_pie nav a {
+    display: grid;
+    padding: 1em;
+}
+
+/* Otros */
+
+input {
+    margin: auto;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 250%;
+}
+
+.iconos_simbolos span {
+    text-decoration: none;
+    text-align: center;
+    font-size: 150%;
+    padding: 0.5em;
 }
