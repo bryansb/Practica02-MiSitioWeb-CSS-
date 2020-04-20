@@ -1,0 +1,161 @@
+@font-face{
+    font-family: menu_Font;
+    src: url("../fonts/Baloo_Tammudu_2/BalooTammudu2-Medium.ttf");
+}
+
+@font-face{
+    font-family: footer_Font;
+    src: url("../fonts/Baloo_Tammudu_2/BalooTammudu2-Regular.ttf");
+}
+
+@font-face{
+    font-family: footer_FontB;
+    src: url("../fonts/Baloo_Tammudu_2/BalooTammudu2-SemiBold.ttf");
+}
+
+#cabecera a {
+    font-family: menu_Font;
+    font-size: 94%;
+}
+
+#pie {
+    font-family: footer_Font;
+    font-size: 90%;
+}
+
+#pie legend{
+    font-family: footer_FontB;
+    font-size: 125%;
+}
+
+/*
+Estructura
+*/
+/* Header */
+#cabecera{
+    display: inline-block;
+    width: 100%;
+}
+
+nav{
+    float: left;
+    clear: both;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: table-cell;
+	width: 10%;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+
+nav ul{
+    padding-left: 1.5em;
+}
+
+nav ul li a{
+    margin: 0em;
+    display: block;
+}
+
+#cabecera form #busqueda {
+    float: left;
+    width: 40%;
+    margin: 1.5em 4em;
+}
+
+.iconos_textos {
+    float: left;
+    display: grid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* Footer */
+#pie {
+    width: 100%;
+    display: flex;
+}
+
+#pie span a{
+    color: #3D0907;
+}
+
+#pie a:hover {
+    color: #FFC000;
+}
+
+.cont_pie {
+    width: 20%;
+    display: grid;
+    margin: auto;
+}
+
+.cont_pie #logo_pie {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+.cont_pie nav a {
+    display: grid;
+    padding: 0.1em;
+    font-size: 110%;
+    text-decoration: none;
+    color: #3D0907;
+}
+
+/* 
+    Fuentes / Color
+*/
+/* Header */
+nav ul li{
+	text-align: center;
+    border: thin solid black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: #FFDF72;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: #FD281B;
+}
+
+nav ul li a:focus {
+    background-color: #FFC000;
+}
+
+.iconos_textos {
+    text-align: center;
+}
+
+/*
+    Imagenes
+*/
+/* Header */
+header img {
+    width: 27%;
+    float: left;
+}
+
+#usuario, #mensaje, #agregar {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0.2em;
+}
+
+/* Footer */
+.cont_pie img{
+    margin: auto;
+    width: auto;
+    padding: 0.5em 0.5em;
+}
+
+.cont_pie #logo_pie img{
+    width: 50px;
+    height: 50px;
+}

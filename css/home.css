@@ -13,105 +13,26 @@ body {
 	min-height: 100%;
 }
 
-/* Header */
-#cabecera{
-    display: inline-block;
-    width: 100%;
+#about, #galery, #simbolos, #teams {
+    margin: 1.5em auto;
+    
+    border-radius: 50px;
 }
-
-nav{
-    float: left;
-    clear: both;
-    margin: 0 auto;
-}
-
-nav ul li{
-    display: table-cell;
-	width: 10%;
-	text-align: center;
-    border: thin solid black;
-    padding-left: 0.1em;
-    padding-right: 0.1em;
-}
-
-nav ul{
-    padding-left: 1.5em;
-}
-
-nav ul li a{
-    text-decoration: none;
-    margin: 0em;
-    display: block;
-}
-
-nav ul li a:hover {
-    background-color: violet;
-}
-
-#cabecera form #busqueda {
-    float: left;
-    width: 40%;
-    margin: 1.5em;
-}
-
-.iconos_textos {
-    float: left;
-    display: grid;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    text-align: center;
-}
-
-
-/*
-header form #busqueda {
-    width: 500%;
-}*/
 
 /* Zona del About */
-
 #about {
-    display: inline-block;
-    border: 1px black solid;
-    border-radius: 10px;
-    background: cornsilk;
-}
-
-#about article{
-    text-align: center;
-    width: 40%;
-    float: left;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    padding: 4em;
-}
-
-#about aside{
-    width: 50%;
-    float: left;
-    display: block;
-}
-#about img{
-    width: 100%;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
 }
 
 /* Zona de Galeria */
 #galery {
     display: grid;
     width: 100%;
+    padding: 1em 0em;
 }
 
 #galery .contenedor {
     display: table-cell;
-}
-
-#galery .contenedor img{
-    width: 15%;
-    margin-left: 0.5em;
-
 }
 
 /* Zona de los Simbolos */
@@ -132,20 +53,11 @@ header form #busqueda {
     padding: 1em;
 }
 
-.iconos_simbolos img{
-    margin: auto;
-    width: 75%;
-}
-
-.iconos_simbolos #escudo{
-    width: 45%;
-}
-
 .iconos_descripcion{
     width: 75%;
     display: block;
     margin: auto;
-    padding: 2.5em;
+    padding: 1em;
 }
 
 /* Team */
@@ -166,68 +78,7 @@ header form #busqueda {
     margin: 1em;
 }
 
-.team img{
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Footer */
-/*
-#pie *{
-    border: 1px black solid;
-}
-*/
-
-#pie {
-    width: 100%;
-    display: flex;
-}
-
-.cont_pie {
-    width: 20%;
-    display: grid;
-    margin: auto;
-}
-.cont_pie img{
-    margin: auto;
-    width: auto;
-    padding: 0.5em 0.5em;
-}
-
-.cont_pie #logo_pie {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.5em 2em 0.5em 2em;
-}
-
-.cont_pie #logo_pie img{
-    width: 50px;
-    height: 50px;
-}
-
-.cont_pie nav a {
-    display: grid;
-    padding: 1em;
-}
-
 /* Otros */
-
 input {
     margin: auto;
-}
-
-h2 {
-    text-decoration: none;
-    text-align: center;
-    font-size: 250%;
-}
-
-.iconos_simbolos span {
-    text-decoration: none;
-    text-align: center;
-    font-size: 150%;
-    padding: 0.5em;
 }
