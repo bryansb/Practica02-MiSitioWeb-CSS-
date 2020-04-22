@@ -37,24 +37,24 @@ Estructura
     width: 100%;
 }
 
-nav{
+#cabecera nav{
     float: left;
     clear: both;
     margin: 0 auto;
 }
 
-nav ul li{
+#cabecera nav ul li{
     display: table-cell;
 	width: 10%;
     padding-left: 0.1em;
     padding-right: 0.1em;
 }
 
-nav ul{
+#cabecera nav ul{
     padding-left: 1.5em;
 }
 
-nav ul li a{
+#cabecera nav ul li a{
     margin: 0em;
     display: block;
 }
@@ -68,8 +68,8 @@ nav ul li a{
 .iconos_textos {
     float: left;
     display: grid;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
 }
 
 /* Footer */
@@ -84,6 +84,7 @@ nav ul li a{
 
 #pie a:hover {
     color: #FFC000;
+    text-decoration: none;
 }
 
 .cont_pie {
@@ -110,22 +111,22 @@ nav ul li a{
     Fuentes / Color
 */
 /* Header */
-nav ul li{
+#cabecera nav ul li{
 	text-align: center;
     border: thin solid black;
 }
 
-nav ul li a{
+#cabecera nav ul li a{
     text-decoration: none;
     background-color: #FFDF72;
     color: black;
 }
 
-nav ul li a:hover {
+#cabecera nav ul li a:hover {
     background-color: #FD281B;
 }
 
-nav ul li a:focus {
+#cabecera nav ul li a:focus {
     background-color: #FFC000;
 }
 

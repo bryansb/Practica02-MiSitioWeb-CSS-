@@ -3,604 +3,366 @@
     <head>
         <title>Educación Superior - Cuenca </title>
         <meta charset="utf-8" />
+        <link href="../css/comun.css" rel="stylesheet" />
+        <link href="../css/tresColumnas.css" rel="stylesheet" />
+        <link href="../css/contenidoTC.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <img src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+        <header id="cabecera">
+            <img id="logoPrincipal" src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+            
+            <form>
+                <input type="search" id="busqueda" name="busqueda" placeholder="Buscar">
+            </form>
+            
+            <div class="iconos_textos">
+                <img id="usuario" src="../images/logo_user.png" alt="usuario">
+                <span>Cuenta</span>
+            </div>
+
+            <div class="iconos_textos">
+                <img id="mensaje" src="../images/logo_mess.png" alt="mensaje">
+                <span>Mensajes</span>
+            </div>
+                
+            <div class="iconos_textos">
+                <img id="agregar" src="../images/logo_add.png" alt="agregar">
+                <span>Agregar</span>
+            </div>
+            
             <nav>
-                <a href="../index.html" > Inicio </a> &nbsp;
-                <a href="historia.html" > Historia </a> &nbsp;
-                <a href="geografia.html" > Geografía </a> &nbsp;
-                <a href="cultura.html" > Cultura </a> &nbsp;
-                <a href="turismo.html" > Turismo </a> &nbsp;
-                <a href="parques.html" > Parques Principales </a> &nbsp;
-                <a href="fiestas.html" > Fiestas Principales </a> &nbsp;
-                <a href="gastronomia.html" > Gastronomía </a> &nbsp;
-                <a href="educacion.html" > Educación Superior </a> &nbsp;
+                <ul>
+                    <li><a href="../index.html" > Inicio </a></li>
+                    <li><a href="historia.html" > Historia </a></li>
+                    <li><a href="geografia.html" > Geografía </a></li>
+                    <li><a href="cultura.html" > Cultura </a></li>
+                    <li><a href="turismo.html" > Turismo </a></li>
+                    <li><a href="parques.html" > Parques Principales </a></li>
+                    <li><a href="fiestas.html" > Fiestas Principales </a></li>
+                    <li><a href="gastronomia.html" > Gastronomía </a></li>
+                    <li><a href="educacion.html" > Educación Superior </a></li>
+                    <li><a href="educacion.html" > Contacto </a></li>
+                </ul>
             </nav>
         </header>
-        <h1 id="inicio_educacion">Universidades</h1>
-        <nav>
-            <ul>
-                <li><a href="educacion.html#ups">UPS</a></li>
-                <li><a href="educacion.html#ucuenca">U de Cuenca</a></li>
-                <li><a href="educacion.html#uda">UDA</a></li>
-                <li><a href="educacion.html#ucacue">UCACUE</a></li>
-            </ul>
-        </nav>
-        <section>
-            <header>
-                <h2 id="ups"> Universidad Politécnica Salesiana (UPS) </h2>
-                <nav>
-                    <ul>
-                        <li><a href="educacion.html#ups_razon">Misión y Visión</a></li>
-                        <li><a href="educacion.html#ups_oferta">Oferta Académica</a></li>
-                        <li><a href="educacion.html#ups_revistas">Revistas Académicas</a></li>
-                        <li><a href="educacion.html#ups_redes">Redes Sociales</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <article>
-                <h3 id="ups_razon"> Misión y Visión </h3>
-                <img src="../images/logo_ups.png" alt="" />
-                <p>
-                    <strong>Misión--</strong> La Universidad Politécnica Salesiana es una institución de educación superior humanística y politécnica, 
-                    de inspiración cristiana con carácter católico e índole salesiana; dirigida de manera preferencial a jóvenes 
-                    de los sectores populares; busca formar "honrados ciudadanos y buenos cristianos", con excelencia humana y académica, 
-                    con capacidad investigativa e innovadora, que contribuyan al desarrollo sostenible local y nacional. <br />
-                    <strong>Visión--</strong> Al 2023, la UPS es una institución de educación superior de referencia en la búsqueda de la verdad 
-                    y el desarrollo de la cultura, de la investigación científica y tecnológica; reconocida socialmente por su calidad en la 
-                    academia y producción científica, por su responsabilidad social universitaria y por su capacidad de incidencia en la innovación, 
-                    interculturalidad y el desarrollo. <br />
 
-                    <cite><a href="https://www.ups.edu.ec/razon-de-ser" target="_blank" title="Razón de Ser - UPS"> Razón de Ser, Página oficial de la institución. </a></cite>
-                </p>
-                <nav>
-                    <a href="educacion.html#ups">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ups_oferta"> Oferta Académica </h3>
-                <img src="../images/oferta.jpg" height="250" alt="" />
-                
-                <p>
-                    La UPS se ha caracterizado por brindar educación de calidad en diferentes campos que en la
-                    actualidad son necesarios para el correcto desarrollo del país, desde ingenierías hasta
-                    licenciaturas los graduados de la UPS están listos para afrontar los problemas del mundo moderno. <br>
-                </p>
-
-                <table border="2">
-                    <caption><em>Tabla 1.</em> Oferta Académica de la UPS</caption>
-                    <tr>
-                      <th colspan="2">Carreras de Grado</th>
-                    </tr>
-                    <tr>
-                      <th>Área / Campo</th>
-                      <th>Carreras (Más relevantes)</th>
-                    </tr>
-                    <tr>
-                      <td>Administración y Economía</td>
-                      <td>Administración de Empresas, Contabilidad y Auditoría, Economía</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencia y Tecnología</td>
-                      <td>Biomedicina, Computación, Electricidad, Automotríiz,<br>Industrial, Mecatrónica, Mecánica, Telecomunicaciones</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias de la Vida</td>
-                      <td>Agropecuaria, Biotecnología, Gestión de Riesgos y Desastres,<br>Ambiental, Medicina Veterinaria<br></td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias Sociales<br></td>
-                      <td>Comunicación, Psicología</td>
-                    </tr>
-                    <tr>
-                      <td>Educación</td>
-                      <td>Educación Básica, Educación Inicial,<br>Pedagogía de la Actividad Física y Deporte</td>
-                    </tr>
-                  </table>
-
-                <nav>
-                    <a href="educacion.html#ups">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ups_revistas"> Revistas Académicas </h3>
-                <img src="../images/ups_rev.jpg" height="350" alt="" />
-
-                <p>
-                    La Universidad Politécnica Salesiana con el objetivo de comunicar y demostrar
-                    el aprendizaje que se obtiene dentro y fuera de las aulas ha publicado una gran
-                    variedad de revistas científicas que se enfocan en una determinada área.
-                </p>
-
+        
+        <div id="menu">
+            <h3> Secciones </h3>
+            <nav>
                 <ul>
-                    <li><strong>Alteridad: </strong>Centrada en la Educación. </li>
-                    <li><strong>Ingenius: </strong>Centrada en Ciencia y Tecnología. </li>
-                    <li><strong>La Granja: </strong>Centrada en Ciencias de la Vida. </li>
-                    <li><strong>Retos: </strong>Centrada en Ciencias Administrativas. </li>
-                    <li><strong>Sofía: </strong>Centrada en la Filosofía. </li>
-                    <li><strong>Universitas:</strong> Centrada en Ciencias Sociales.</li>
+                    <li><a href="educacion.html#ups">UPS</a>
+                        <ul>
+                            <li><a href="educacion.html#ups_razon">Misión y Visión</a></li>
+                            <li><a href="educacion.html#ups_revistas">Revistas Académicas</a></li>
+                            <li><a href="educacion.html#ups_oferta">Oferta Académica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="educacion.html#ucuenca">UCUENCA</a>
+                        <ul>
+                            <li><a href="educacion.html#ucuenca_razon">Misión y Visión</a></li>
+                            <li><a href="educacion.html#ucuenca_revistas">Revistas Académicas</a></li>
+                            <li><a href="educacion.html#ucuenca_oferta">Oferta Académica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="educacion.html#uda">UDA</a>
+                        <ul>
+                            <li><a href="educacion.html#uda_razon">Misión y Visión</a></li>
+                            <li><a href="educacion.html#uda_revistas">Revistas Académicas</a></li>
+                            <li><a href="educacion.html#uda_oferta">Oferta Académica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="educacion.html#ucacue">UCACUE</a>
+                        <ul>
+                            <li><a href="educacion.html#ucacue_razon">Misión y Visión</a></li>
+                            <li><a href="educacion.html#ucacue_revistas">Revistas Académicas</a></li>
+                            <li><a href="educacion.html#ucacue_oferta">Oferta Académica</a></li>
+                        </ul>
+                    </li>
                 </ul>
+            </nav>
+        </div>
 
-                <aside>
-                    <h4> Más información </h4>
+        <div class="contenido">
+            <div class="principal">
+                <article class="mision">
+                    <h2 id="ups"> Universidad Politécnica Salesiana (UPS) </h2>
+                    <h3 id="ups_razon"> Misión y Visión </h3>
+                    <img src="../images/logo_ups.png" alt="" />
                     <p>
-                        Para saber más acerca de estas revistas hacer 
-                        <a href="https://revistas.ups.edu.ec/" title="Revistas UPS" target="_blank">click aquí.</a>
+                        <strong>Misión: </strong> La Universidad Politécnica Salesiana es una institución de educación superior humanística y politécnica, 
+                        de inspiración cristiana con carácter católico e índole salesiana; dirigida de manera preferencial a jóvenes 
+                        de los sectores populares; busca formar "honrados ciudadanos y buenos cristianos", con excelencia humana y académica, 
+                        con capacidad investigativa e innovadora, que contribuyan al desarrollo sostenible local y nacional. <br />
                     </p>
-                </aside>
+                    <p>
+                        <strong>Visión: </strong> Al 2023, la UPS es una institución de educación superior de referencia en la búsqueda de la verdad 
+                        y el desarrollo de la cultura, de la investigación científica y tecnológica; reconocida socialmente por su calidad en la 
+                        academia y producción científica, por su responsabilidad social universitaria y por su capacidad de incidencia en la innovación, 
+                        interculturalidad y el desarrollo. <br />
+    
+                        <cite><a href="https://www.ups.edu.ec/razon-de-ser" target="_blank" title="Razón de Ser - UPS"> Razón de Ser, Página oficial de la institución. </a></cite>
+                    </p>
+                </article>
 
-                <nav>
-                    <a href="educacion.html#ups">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ups_redes"> Redes Sociales </h3>
-                <img src="../images/redes_soc.png"  width="500" alt="" />
+                <article class="revistas">
+                    <h3 id="ups_revistas"> Revistas Académicas </h3>
+                    <img src="../images/ups_rev.jpg" height="350" alt="" />
+    
+                    <p>
+                        La Universidad Politécnica Salesiana con el objetivo de comunicar y demostrar
+                        el aprendizaje que se obtiene dentro y fuera de las aulas ha publicado una gran
+                        variedad de revistas científicas que se enfocan en una determinada área.
+                    </p>
+    
+                    <ul class="lista_revistas">
+                        <li><strong>Alteridad: </strong>Centrada en la Educación. </li>
+                        <li><strong>Ingenius: </strong>Centrada en Ciencia y Tecnología. </li>
+                        <li><strong>La Granja: </strong>Centrada en Ciencias de la Vida. </li>
+                        <li><strong>Retos: </strong>Centrada en Ciencias Administrativas. </li>
+                        <li><strong>Sofía: </strong>Centrada en la Filosofía. </li>
+                        <li><strong>Universitas:</strong> Centrada en Ciencias Sociales.</li>
+                    </ul>
+                    
+                    <p>
+                        Para saber más acerca de estas revistas hacer
+                        <a href="https://revistas.ups.edu.ec/" title="Revistas UPS" target="_blank">click aquí.</a>
+                            
+                    </p>
+                </article>
 
-                <p>
+                <article class="oferta">
+                    <h3 id="ups_oferta"> Oferta Académica </h3>                    
+                    <p>
+                        La UPS se ha caracterizado por brindar educación de calidad en diferentes campos que en la
+                        actualidad son necesarios para el correcto desarrollo del país, desde ingenierías hasta
+                        licenciaturas los graduados de la UPS están listos para afrontar los problemas del mundo moderno. <br>
+                    </p>
+    
+                    <table class="carreras_tabla">
+                        <tr>
+                          <th class="cabecera" colspan="2">Carreras de Grado</th>
+                        </tr>
+                        <tr>
+                          <td class="cabecera">Área / Campo</td>
+                          <td class="cabecera">Carreras (Más relevantes)</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Administración y Economía</td>
+                          <td class="carreras">Administración de Empresas, Contabilidad y Auditoría, Economía</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencia y Tecnología</td>
+                          <td class="carreras">Biomedicina, Computación, Electricidad, Automotríiz, Industrial, Mecatrónica, Mecánica, Telecomunicaciones</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencias de la Vida</td>
+                          <td class="carreras">Agropecuaria, Biotecnología, Gestión de Riesgos y Desastres, Ambiental, Medicina Veterinaria</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencias Sociales</td>
+                          <td class="carreras">Comunicación, Psicología</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Educación</td>
+                          <td class="carreras">Educación Básica, Educación Inicial, Pedagogía de la Actividad Física y Deporte</td>
+                        </tr>
+                    </table>
+                </article>
+            </div>
+
+            <div class="secundario">
+                <h3>Redes Sociales</h3>    
+                <span>
                     Para una información más detallada de admisiones, noticias, 
                     y más contáctate con las redes oficiales.
-                </p>
-
-                <ul>
-                    <li><strong>Página Oficial: </strong><a href="https://www.ups.edu.ec/" target="_blank">www.ups.edu.ec</a></li>
-                    <li><strong>Facebook: </strong><a href="https://www.facebook.com/UPSalesianaEc" target="_blank">www.facebook.com/UPSalesianaEc</a></li>
-                    <li><strong>Twiter: </strong><a href="https://twitter.com/upsalesiana" target="_blank">@upsalesiana</a></li>
-                    <li><strong>Instagram: </strong><a href="https://www.instagram.com/upsalesianaec/" target="_blank">www.instagram.com/upsalesianaec/</a></li>
-                    <li><strong>YouTube: </strong><a href="https://www.youtube.com/channel/UCVtRZLpPa8CFkqXq7aTYiFA" target="_blank">www.youtube.com/channel/UCVtRZLpPa8CFkqXq7aTYiFA</a></li>
-                </ul>
-
-                <nav>
-                    <a href="educacion.html#ups">Regresar</a>
-                </nav>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="ucuenca"> Universidad Estatal de Cuenca </h2>
-                <nav>
-                    <ul>
-                        <li><a href="educacion.html#ucuenca_razon">Misión y Visión</a></li>
-                        <li><a href="educacion.html#ucuenca_oferta">Oferta Académica</a></li>
-                        <li><a href="educacion.html#ucuenca_revistas">Revistas Académicas</a></li>
-                        <li><a href="educacion.html#ucuenca_redes">Redes Sociales</a></li>
-                        <li><a href="educacion.html#inicio_educacion">Ir al Inicio</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <article>
-                <h3 id="ucuenca_razon"> Misión y Visión </h3>
-                <img src="../images/logo_ucuenca.png" width="450" height="125" alt="" />
-                <p>
-                    <strong>Misión--</strong> La Universidad de Cuenca es una universidad pública, cuya misión es formar profesionales y científicos 
-                    comprometidos con el mejoramiento de la calidad de vida, en el contexto de la interculturalidad y en armonía con la naturaleza. 
-                    La Universidad fundamenta en la calidad académica, en la creatividad y en la innovación, su capacidad para responder a los retos 
-                    científicos y humanos de la época y sociedad regional, nacional e internacional equitativa, solidaria y eficiente. <br />
-                    <strong>Visión--</strong> La Universidad de Cuenca se proyecta como una institución con reconocimiento nacional e internacional 
-                    por su excelencia en docencia con investigación y vinculación con la sociedad; comprometida con los planes de desarrollo regional 
-                    y nacional; que impulsa y lidera un modelo de pensamiento crítico en la sociedad. <br />
-
-                    <cite><a href="https://www.ucuenca.edu.ec/nosotros" target="_blank" > Nosotros, Universidad de Cuenca. </a></cite>
-                </p>
-                <nav>
-                    <a href="educacion.html#ucuenca">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucuenca_oferta"> Oferta Académica </h3>
-                <img src="../images/oferta.jpg" height="250" alt="" />
+                </span>
                 
-                <p>
-                    La U de Cuenca desde su fundación en <em>15 de octubre de 1867</em> fue creciendo constantemente
-                    integrando de sus inicio más facultades y carreras modernizándose para solventar las necesidades
-                    de la era moderna. Actualmente es una de las más prestigiosas Universidades de Ecuador y Latinoamérica.
-                    Cuenta con más de 10 Facultades Académicas y más de 40 Carreras profesionales.
-                    <br>
-                </p>
+                <span><strong>Página Oficial: </strong><a href="https://www.ups.edu.ec/" target="_blank">www.ups.edu.ec</a></span>
 
-                <table border="2">
-                    <caption><em>Tabla 2.</em> Oferta Académica de la U de Cuenca</caption>
-                    <tr>
-                      <th colspan="2">Carreras de Grado</th>
-                    </tr>
-                    <tr>
-                      <th>Área / Campo</th>
-                      <th>Carreras (Más relevantes)</th>
-                    </tr>
-                    <tr>
-                      <td>Ingenierias y Tecnologías</td>
-                      <td>Arquitectura, Computación, Química, Civil</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias Agropecuarias y Biociencias</td>
-                      <td>Ambiental, Veterinaria, Bioquímica y Farmacia</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias de la Salud</td>
-                      <td>Medicina, Enfermería, Odontología, Laboratorio Clínico<br></td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias Sociales, Administración y<br>Servicios<br></td>
-                      <td>Comunicación, Derecho, Economía, Psicología</td>
-                    </tr>
-                    <tr>
-                      <td>Humanidades, Educación y Artes</td>
-                      <td>Educación Básica, Educación Inicial, Cine, Artes Visuales</td>
-                    </tr>
-                  </table>
+                <div class="iconos_redes">
+                    <a href="https://www.facebook.com/UPSalesianaEc" target="_blank"><img src="../images/faceLogo.png" alt="" /></a>
+                    <span>Facebook</span>
+                </div>
 
-                <aside>
-                    <h3> ¿No encuentras tu Carrera? </h3>
+                <div class="iconos_redes">
+                    <a href="https://twitter.com/upsalesiana" target="_blank"><img src="../images/twitterLogo.png" alt="" /></a>
+                    <span>Twitter</span>
+                </div>
+
+                <div class="iconos_redes">
+                    <a href="https://www.instagram.com/upsalesianaec/" target="_blank"><img src="../images/instaLogo.png" alt="" /></a>
+                    <span>Instagram</span>
+                </div>
+
+                <div class="iconos_redes">
+                    <a href="https://www.youtube.com/channel/UCVtRZLpPa8CFkqXq7aTYiFA" target="_blank"><img src="../images/youtubeLogo.png" alt="" /></a>
+                    <span>YouTube</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido">
+            <div class="principal">
+                <article class="mision">
+                    <h2 id="ups"> Universidad Estatal de Cuenca (UCUENCA) </h2>
+                    <h3 id="ups_razon"> Misión y Visión </h3>
+                    <img src="../images/logo_ucuenca.png" alt="" />
                     <p>
-                        La Universidad de Cuenca ofrece una amplia variedad de carreras profesionales a través de sus numerosas
-                        facultades. Para mayor información acerca de sus ofertas haz  
-                        <a href="https://www.ucuenca.edu.ec/oferta-academica/pregrado" target="_blank">click aquí.</a>
+                        <strong>Misión: </strong> La Universidad de Cuenca es una universidad pública, cuya misión es formar profesionales y científicos 
+                        comprometidos con el mejoramiento de la calidad de vida, en el contexto de la interculturalidad y en armonía con la naturaleza. 
+                        La Universidad fundamenta en la calidad académica, en la creatividad y en la innovación, su capacidad para responder a los retos 
+                        científicos y humanos de la época y sociedad regional, nacional e internacional equitativa, solidaria y eficiente. <br />
                     </p>
-                </aside>
-
-                <nav>
-                    <a href="educacion.html#ucuenca">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucuenca_revistas"> Revistas Académicas </h3>
-                <img src="../images/ucuenca_rev.jpg" height="350" alt="" />
-
-                <p>
-                    Con el objetivo de brindar tanto a estudiantes, docentes e investigadores en general la U de Cuenca
-                    ha generado plataformar de divulgación para que así se pueda comunicar y difundir acerca de los 
-                    avances y descubrimientos actuales.
-                </p>
-
-                <ul>
-                    <li><strong>Maskana: </strong>Revista científica. </li>
-                    <li><strong>Pucara: </strong>Publicación anual de la Facultad de Filosofía, Letras y Ciencias de la Eduación. </li>
-                    <li><strong>Tsantsa: </strong>Publicación electrónica de la Facultad de Artes. </li>
-                    <li><strong>IURIS: </strong>Centrada en temas de Jurisprudencia y Ciencias Políticas y Sociales. </li>
-                    <li><strong>Acordes: </strong>Centrada en temas de Ciencias Económicas y Administrativas. </li>
-                </ul>
-
-                <aside>
-                    <h4> Más información </h4>
                     <p>
-                        Para conocer más acerca de estas publicaciones y otras publicaciones hacer 
-                        <a href="https://publicaciones.ucuenca.edu.ec/ojs/" target="_blank">click aquí.</a>
+                        <strong>Visión: </strong> La Universidad de Cuenca se proyecta como una institución con reconocimiento nacional e internacional 
+                        por su excelencia en docencia con investigación y vinculación con la sociedad; comprometida con los planes de desarrollo regional 
+                        y nacional; que impulsa y lidera un modelo de pensamiento crítico en la sociedad. <br />
+    
+                        <cite><a href="https://www.ucuenca.edu.ec/nosotros" target="_blank" > Nosotros, Universidad de Cuenca. </a></cite>                    </p>
+                </article>
+
+                <article class="revistas">
+                    <h3 id="ups_revistas"> Revistas Académicas </h3>
+                    <img src="../images/ups_rev.jpg" height="350" alt="" />
+    
+                    <p>
+                        La Universidad Politécnica Salesiana con el objetivo de comunicar y demostrar
+                        el aprendizaje que se obtiene dentro y fuera de las aulas ha publicado una gran
+                        variedad de revistas científicas que se enfocan en una determinada área.
                     </p>
-                </aside>
+    
+                    <ul class="lista_revistas">
+                        <li><strong>Alteridad: </strong>Centrada en la Educación. </li>
+                        <li><strong>Ingenius: </strong>Centrada en Ciencia y Tecnología. </li>
+                        <li><strong>La Granja: </strong>Centrada en Ciencias de la Vida. </li>
+                        <li><strong>Retos: </strong>Centrada en Ciencias Administrativas. </li>
+                        <li><strong>Sofía: </strong>Centrada en la Filosofía. </li>
+                        <li><strong>Universitas:</strong> Centrada en Ciencias Sociales.</li>
+                    </ul>
+                    
+                    <p>
+                        Para saber más acerca de estas revistas hacer
+                        <a href="https://revistas.ups.edu.ec/" title="Revistas UPS" target="_blank">click aquí.</a>
+                            
+                    </p>
+                </article>
 
-                <nav>
-                    <a href="educacion.html#ucuenca">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucuenca_redes"> Redes Sociales </h3>
-                <img src="../images/redes_soc.png"  width="500" alt="" />
+                <article class="oferta">
+                    <h3 id="ups_oferta"> Oferta Académica </h3>                    
+                    <p>
+                        La UPS se ha caracterizado por brindar educación de calidad en diferentes campos que en la
+                        actualidad son necesarios para el correcto desarrollo del país, desde ingenierías hasta
+                        licenciaturas los graduados de la UPS están listos para afrontar los problemas del mundo moderno. <br>
+                    </p>
+    
+                    <table class="carreras_tabla">
+                        <tr>
+                          <th class="cabecera" colspan="2">Carreras de Grado</th>
+                        </tr>
+                        <tr>
+                          <td class="cabecera">Área / Campo</td>
+                          <td class="cabecera">Carreras (Más relevantes)</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Administración y Economía</td>
+                          <td class="carreras">Administración de Empresas, Contabilidad y Auditoría, Economía</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencia y Tecnología</td>
+                          <td class="carreras">Biomedicina, Computación, Electricidad, Automotríiz, Industrial, Mecatrónica, Mecánica, Telecomunicaciones</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencias de la Vida</td>
+                          <td class="carreras">Agropecuaria, Biotecnología, Gestión de Riesgos y Desastres, Ambiental, Medicina Veterinaria</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Ciencias Sociales</td>
+                          <td class="carreras">Comunicación, Psicología</td>
+                        </tr>
+                        <tr>
+                          <td class="areas">Educación</td>
+                          <td class="carreras">Educación Básica, Educación Inicial, Pedagogía de la Actividad Física y Deporte</td>
+                        </tr>
+                    </table>
+                </article>
+            </div>
 
-                <p>
+            <div class="secundario">
+                <h3>Redes Sociales</h3>    
+                <span>
                     Para una información más detallada de admisiones, noticias, 
-                    y más contáctate con las redes oficiales de la Universidad de Cuenca.
-                </p>
-
-                <ul>
-                    <li><strong>Página Oficial: </strong><a href="https://www.ucuenca.edu.ec/" target="_blank">www.ucuenca.edu.ec/</a></li>
-                    <li><strong>Facebook: </strong><a href="https://www.facebook.com/ucuenca" target="_blank">www.facebook.com/ucuenca</a></li>
-                    <li><strong>Twiter: </strong><a href="https://twitter.com/udecuenca" target="_blank">@udecuenca</a></li>
-                    <li><strong>Instagram: </strong><a href="https://www.instagram.com/udecuenca/" target="_blank">www.instagram.com/udecuenca/</a></li>
-                    <li><strong>YouTube: </strong><a href="https://www.youtube.com/user/udecuencaoficial/featured" target="_blank">www.youtube.com/user/udecuencaoficial/featured</a></li>
-                </ul>
-
-                <nav>
-                    <a href="educacion.html#ucuenca">Regresar</a>
-                </nav>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="uda"> Universidad del Azuay </h2>
-                <nav>
-                    <ul>
-                        <li><a href="educacion.html#uda_razon">Misión y Visión</a></li>
-                        <li><a href="educacion.html#uda_oferta">Oferta Académica</a></li>
-                        <li><a href="educacion.html#uda_revistas">Revistas Académicas</a></li>
-                        <li><a href="educacion.html#uda_redes">Redes Sociales</a></li>
-                        <li><a href="educacion.html#inicio_educacion">Ir al Inicio</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <article>
-                <h3 id="uda_razon"> Misión y Visión </h3>
-                <img src="../images/logo_uda.jpg" width="450" height="125" alt="" />
+                    y más contáctate con las redes oficiales.
+                </span>
                 
-                <p>
-                    <strong>Misión--</strong> Somos una Comunidad Universitaria que formamos personas con pensamiento crítico, 
-                    comprometida éticamente con la sociedad, que aporta a la ciencia y al conocimiento para lograr el desarrollo 
-                    integral de nuestro entorno.  <br />
-                    <strong>Visión--</strong> Ser una Universidad orientada hacia la investigación; acreditada con estándares nacionales 
-                    e internacionales; y, constituirse en un referente académico nacional.
-                    Política de seguridad, salud y ambiente. <br>
-                    Siendo fieles a nuestros principios y valores en la Universidad del Azuay nos comprometemos a: <br>
-                    Proteger la salud y seguridad de todos quienes hacemos la "Comunidad Universitaria" promoviendo y desarrollando 
-                    condiciones adecuadas de trabajo y un ambiente sustentable. <br>
-                    Hacer parte de nuestra vida el aprendizaje y la mejora continua como contribución para crear y desarrollar una cultura 
-                    de prevención y autocuidado. Cumplir con las regulaciones legales de S&SO, aplicables a nuestras acciones institucionales. <br>
-                    Asignar los recursos necesarios para desarrollar un sistema de prevención de riesgos de seguridad y salud ocupacional. <br>
-                    Promover la participación y cumplimiento de las directrices de seguridad industrial y salud ocupacional en todos sus 
-                    colaboradores, contratistas, visitantes y demás personal relacionado con la ejecución de sus procesos. <br>
-                    Divulgar la presente Política a toda la Comunidad Universitaria. <br>
-                    Es compromiso activo y permanente de todos los colaboradores de la Universidad, contratistas y partes interesadas, 
-                    el dar cumplimiento a esta Política. <br />
+                <span><strong>Página Oficial: </strong><a href="https://www.ups.edu.ec/" target="_blank">www.ups.edu.ec</a></span>
 
-                    <cite><a href="https://www.uazuay.edu.ec/launiversidad#vision-mision-principios" target="_blank" > Visión, Misión y principios; Universidad del Azuay. </a></cite>
-                </p>
+                <div class="iconos_redes">
+                    <a href="https://www.facebook.com/UPSalesianaEc" target="_blank"><img src="../images/faceLogo.png" alt="" /></a>
+                    <span>Facebook</span>
+                </div>
 
-                <nav>
-                    <a href="educacion.html#uda">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="uda_oferta"> Oferta Académica </h3>
-                <img src="../images/oferta.jpg" height="250" alt="" />
-                
-                <p>
-                    La Universidad del Azuay en su afán de educar a jóvenes que busquen superarse así mismo para cambiar al mundo,
-                    ha desarrollado a lo largo de este tiempo varias Carreras Profesionales. Todas estas están enfocadas a integrar
-                    conocimientos técnicos con formación humana, por ello cada oferta académica que brinda esta institución asegura
-                    una formación de calidad que lleve a los estudiantes a ser autocríticos y con conocimientos de la cultura a través
-                    del aprendizaje de otro idioma.
-                    <br>
-                </p>
+                <div class="iconos_redes">
+                    <a href="https://twitter.com/upsalesiana" target="_blank"><img src="../images/twitterLogo.png" alt="" /></a>
+                    <span>Twitter</span>
+                </div>
 
-                <table border="2">
-                    <caption><em>Tabla 3.</em> Oferta Académica de la UDA</caption>
-                    <tr>
-                      <th colspan="2">Carreras de Grado</th>
-                    </tr>
-                    <tr>
-                      <th>Facultad</th>
-                      <th>Carreras (Más relevantes)</th>
-                    </tr>
-                    <tr>
-                      <td>Medicina</td>
-                      <td>Medicina</td>
-                    </tr>
-                    <tr>
-                      <td>Filosofía, Letras y Ciencias de la Educación</td>
-                      <td>Comunicación, Psicología, Turismo, Educación</td>
-                    </tr>
-                    <tr>
-                      <td>Diseño, Arquitectura y Arte</td>
-                      <td>Arquitectura, Diseño Gráfico, Diseño de Interiores,<br>Creación Teatral</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias Jurídicas</td>
-                      <td>Derecho, Estudios Internacionales</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencia y Tecnología</td>
-                      <td>Biología, Ing. en Alimentos, Ing. en Minas, <br>Ing. Producción</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias de la Administración</td>
-                      <td>Economía, Marketing, Contabilidad y Auditoria</td>
-                    </tr>
-                  </table>
+                <div class="iconos_redes">
+                    <a href="https://www.instagram.com/upsalesianaec/" target="_blank"><img src="../images/instaLogo.png" alt="" /></a>
+                    <span>Instagram</span>
+                </div>
 
-                <aside>
-                    <h3> ¿Aún con dudas? </h3>
-                    <p>
-                        Si quieres saber más detalles de estas y otras Carreras que la Universidad del Azuay tiene para ti, haz  
-                        <a href="https://www.uazuay.edu.ec/estudios-de-grado" target="_blank">click aquí.</a>
-                    </p>
-                </aside>
+                <div class="iconos_redes">
+                    <a href="https://www.youtube.com/channel/UCVtRZLpPa8CFkqXq7aTYiFA" target="_blank"><img src="../images/youtubeLogo.png" alt="" /></a>
+                    <span>YouTube</span>
+                </div>
+            </div>
+        </div>
+        
 
-                <nav>
-                    <a href="educacion.html#uda">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="uda_revistas"> Revistas Académicas </h3>
-                <img src="../images/uda_rev.png" height="350" alt="" />
+        
+        
+
+        <footer id="pie">
+            <div class="cont_pie">
+                <div id="logo_pie">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/faceLogo.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/instaLogo.png" alt=""></a>
+                </div>
+                <img src="../images/logoSO.png" alt="">
 
                 <p>
-                    Con el objetivo de brindar tanto a estudiantes, docentes e investigadores en general la U de Cuenca
-                    ha generado plataformar de divulgación para que así se pueda comunicar y difundir acerca de los 
-                    avances y descubrimientos actuales.
+                    Sarmiento Basurto Douglas Bryan <br />
+                    Universidad Politécnica Salesiana <br />
+                    <span><strong>Correo :</strong><a href="mailto:dsarmientob1@est.ups.edu.ec"> dsarmientob1@est.ups.edu.ec</a></span> <br />
+                    <span><strong>Telf. :</strong><a href="tel:+593996917211"> +593996917211</a></span><br />
+                    &copy; Todos los derechos reservados
                 </p>
+            </div>
 
-                <ul>
-                    <li><strong>Universidad y Verdad: </strong>Se centra en tratar de hacer un análisis de los temás actuales haciendo una reflexión de los mismos. </li>
-                    <li><strong>DAYA: </strong>Difunde contribuciones teóricas y técnicas del mundo del diseño en general. </li>
-                    <li><strong>Obra Digital: </strong>En contribución con la Universidad de Vic-Universidad Central de Cataluña es una revista que se centra en la Comunicación y temas afines. </li>
-                    <li><strong>UDAAKADEM: </strong>Difunde conocimiento económico y empresarial. </li>
-                    <li><strong>YU YARI KUNA: </strong>Publica memorias de congresos realizados por la UDA. </li>
-                </ul>
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Acerca de Cuenca</legend>
+                    <nav>
+                        <a href="historia.html" > Historia </a>
+                        <a href="geografia.html" > Geografía </a>
+                        <a href="cultura.html" > Cultura </a>
+                        <a href="turismo.html" > Turismo </a>
+                    </nav>
+                </fieldset>
+            </div>
 
-                <aside>
-                    <h4> Más información </h4>
-                    <p>
-                        Para más detalles de estas revistas digitales haga 
-                        <a href="http://revistas.uazuay.edu.ec/" target="_blank">click aquí.</a>
-                    </p>
-                </aside>
-
-                <nav>
-                    <a href="educacion.html#uda">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="uda_redes"> Redes Sociales </h3>
-                <img src="../images/redes_soc.png"  width="500" alt="" />
-
-                <p>
-                    Para una información más detallada de admisiones, noticias, 
-                    y más contáctate con las redes oficiales de la Universidad del Azuay.
-                </p>
-
-                <ul>
-                    <li><strong>Página Oficial: </strong><a href="https://www.uazuay.edu.ec/" target="_blank">www.uazuay.edu.ec/</a></li>
-                    <li><strong>Facebook: </strong><a href="https://www.facebook.com/uazuay" target="_blank">www.facebook.com/uazuay</a></li>
-                    <li><strong>Twiter: </strong><a href="https://twitter.com/uazuay/" target="_blank">@uazuay</a></li>
-                    <li><strong>Instagram: </strong><a href="https://www.instagram.com/uda.oficial/" target="_blank">www.instagram.com/uda.oficial/</a></li>
-                    <li><strong>YouTube: </strong><a href="https://www.youtube.com/channel/UCUkESMoN6-hBdvh5bRrmLKQ" target="_blank">www.youtube.com/channel/UCUkESMoN6-hBdvh5bRrmLKQ</a></li>
-                </ul>
-
-                <nav>
-                    <a href="educacion.html#uda">Regresar</a>
-                </nav>
-            </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="ucacue"> Universidad Católica de Cuenca </h2>
-                <nav>
-                    <ul>
-                        <li><a href="educacion.html#ucacue_razon">Misión y Visión</a></li>
-                        <li><a href="educacion.html#ucacue_oferta">Oferta Académica</a></li>
-                        <li><a href="educacion.html#ucacue_revistas">Revistas Académicas</a></li>
-                        <li><a href="educacion.html#ucacue_redes">Redes Sociales</a></li>
-                        <li><a href="educacion.html#inicio_educacion">Ir al Inicio</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <article>
-                <h3 id="ucacue_razon"> Misión y Visión </h3>
-                <img src="../images/logo_ucacue.png" width="450" height="125" alt="" />
-                
-                <p>
-                    <strong>Misión--</strong> Desarrollar el pensamiento crítico, articulando los ejes sustantivos en que fundamenta 
-                    su actuar la universidad, para generar profesionales con competencias y contribuir a las soluciones de los problemas 
-                    de la sociedad.  <br />
-                    <strong>Visión--</strong> Ser una universidad de calidad, con reconocimiento nacional y proyección internacional. <br />
-
-                    <cite><a href="https://www.ucacue.edu.ec/la-universidad/mision-y-vision/" target="_blank" > Quiénes Somos, Universidad Católica de Cuenca. </a></cite>
-                </p>
-
-                <nav>
-                    <a href="educacion.html#ucacue">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucacue_oferta"> Oferta Académica </h3>
-                <img src="../images/oferta.jpg" height="250" alt="" />
-                
-                <p>
-                    Debido a los cambios actuales, y a la continua transformación de los sectores económicos, tecnológicos
-                    y educativos la Universidad Católica de Cuenca se adapta ofertando Carreras Profesionales que vayan
-                    junto con la evolución de esta sociedad.
-                    <br>
-                </p>
-                
-                <table border="2">
-                    <caption><em>Tabla 4.</em> Oferta Académica de la UCACUE</caption>
-                    <tr>
-                      <th colspan="2">Carreras de Grado</th>
-                    </tr>
-                    <tr>
-                      <th>Unidad Académica</th>
-                      <th>Carreras (Más relevantes)</th>
-                    </tr>
-                    <tr>
-                      <td>Salud y Bienestar</td>
-                      <td>Medicina, Odontología, Enfermería, Biofarmacia</td>
-                    </tr>
-                    <tr>
-                      <td>Industria y Construcción</td>
-                      <td>Ing. Civil, Ing. Industrial, Ing. Ambiental, Arquitectura</td>
-                    </tr>
-                    <tr>
-                      <td>Administración</td>
-                      <td>Administración de Empresas, Contabilidad y Auditoría</td>
-                    </tr>
-                    <tr>
-                      <td>Ciencias Sociales, Periodismo,<br>Información y Derecho</td>
-                      <td>Derecho, Economía, Periodismo, Trabajo Social</td>
-                    </tr>
-                    <tr>
-                      <td>Tecnologías de la Información<br>y Comunicación</td>
-                      <td>Software, Sistemas de Información,<br>Tecnología de la Información</td>
-                    </tr>
-                    <tr>
-                      <td>Educación</td>
-                      <td>Educación, Diseño de Interiores,<br>Pedagogía de la Actividad Física</td>
-                    </tr>
-                    <tr>
-                      <td>Agricultura, Silvicultura, Pesca<br>y Veterinaria</td>
-                      <td>Medicina Veterinaria, Agronomía</td>
-                    </tr>
-                </table>
-                
-
-                <aside>
-                    <h3> ¿Qué esperas? </h3>
-                    <p>
-                        Anímate a seguir una Carrera del futuro junto a la UCatoCue, si deseas más información,  
-                        <a href="https://www.ucacue.edu.ec/pregrado/" target="_blank">click aquí.</a>
-                    </p>
-                </aside>
-
-                <nav>
-                    <a href="educacion.html#ucacue">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucacue_revistas"> Revistas Académicas </h3>
-                <img src="../images/ucacue_rev.jpg" height="350" alt="" />
-
-                <p>
-                    La Universidad Católica de Cuenca en su afán de compartir el conocimiento,
-                    pone a la disposición de toda la comunidad científica y a estudiantes una
-                    colección de revistas tanto electrónicas como en impresión física que abarca
-                    áreas fundamentales de la actualidad, las revistas <em>Killkana</em>.
-                </p>
-                <ol>
-                    <li><strong>Social: </strong>Se centra en tratar temas que giran en torno a las Ciencias Sociales, Administrativas y Económicas. </li>
-                    <li><strong>Salud y Bienestar: </strong>Se centran en investigaciones y avances en el campo de la salud, bienestar y afines. </li>
-                    <li><strong>Técnica: </strong>Se centra principalmente en temas de ingeniería y ciencias básicas. </li>
-                    <li><strong>Proceedings: </strong>Reúne resúmenes de conferencias y memorias de congresos. </li>
-                </ol>
-
-                <aside>
-                    <h4> Colección Killkana </h4>
-                    <p>
-                        Si estás interesado en saber más sobre esta colección, haz
-                        <a href="https://killkana.ucacue.edu.ec/" target="_blank"> click aquí.</a>
-                    </p>
-                </aside>
-
-                <nav>
-                    <a href="educacion.html#ucacue">Regresar</a>
-                </nav>
-            </article>
-            <article>
-                <h3 id="ucacue_redes"> Redes Sociales </h3>
-                <img src="../images/redes_soc.png"  width="500" alt="" />
-
-                <p>
-                    Para estar al día con las novedades de la Universidad Católica de Cuenca, asegúrate de seguir los medios oficiales.
-                </p>
-                <ul>
-                    <li><strong>Página Oficial: </strong><a href="https://www.ucacue.edu.ec/" target="_blank">www.ucacue.edu.ec/</a></li>
-                    <li><strong>Facebook: </strong><a href="https://www.facebook.com/UCatoCuenca/" target="_blank">www.facebook.com/UCatoCuenca/</a></li>
-                    <li><strong>Twiter: </strong><a href="https://twitter.com/UCatoCuenca" target="_blank">@UCatoCuenca</a></li>
-                    <li><strong>Instagram: </strong><a href="https://www.instagram.com/ucatocuenca/" target="_blank">www.instagram.com/ucatocuenca/</a></li>
-                    <li><strong>YouTube: </strong><a href="https://www.youtube.com/channel/UCGVWtXf8V7_-mknqXecQzgQ" target="_blank">www.youtube.com/channel/UCGVWtXf8V7_-mknqXecQzgQ</a></li>
-                </ul>
-
-                <nav>
-                    <a href="educacion.html#ucacue">Regresar</a>
-                </nav>
-            </article>
-        </section>
-        <footer>
-            <p>
-                Sarmiento Basurto Douglas Bryan <br />
-                <a href="mailto:dsarmientob1@est.ups.edu.ec">dsarmientob1@est.ups.edu.ec</a> &#8226;
-                <a href="tel:+593996917211">+593996917211</a> <br />
-                Universidad Politécnica Salesiana <br />
-                &copy; Todos los derechos reservados
-            </p>
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Universidades Principales</legend>
+                    <nav>
+                        <a href="educacion.html#ups" > Universidad Politécnica Salesiana </a>
+                        <a href="educacion.html#ucuenca" > Universidad Estatal de Cuenca </a>
+                        <a href="educacion.html#uda" > Universidad del Azuay </a>
+                        <a href="educacion.html#ucacue" > Universidad Católica de Cuenca </a>
+                    </nav>
+                </fieldset>
+            </div>
         </footer>
     </body>
 </html>

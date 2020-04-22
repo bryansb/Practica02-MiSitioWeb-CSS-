@@ -1,6 +1,6 @@
 @font-face{
     font-family: cuerpo_Font;
-    src: url("../fonts/PathwayGothicOne-Regular.ttf");
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
 }
 
 @font-face{
@@ -10,11 +10,11 @@
 
 p {
     font-family: cuerpo_Font;
-    font-size: 125%;
+    font-size: 110%;
 }
 
 #about p {
-    font-size: 130%;
+    font-size: 115%;
 }
 
 h2 {
@@ -56,11 +56,11 @@ span {
 
 #about article{
     text-align: center;
-    width: 40%;
+    width: 45%;
     float: left;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 4em;
+    padding: 2em;
 }
 
 #about aside{
@@ -68,12 +68,13 @@ span {
     float: left;
     display: block;
 }
+
 #about img{
     width: 100%;
     float: left;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
+    border-radius: 100px;
 }
 
 /* Galeria */

@@ -1,0 +1,70 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+#menu {
+    width: 20%;
+    float: left;
+}
+
+.contenido {
+    width: 78%;
+    float: right;
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.principal {
+    width: 70%;
+    float: left;
+    padding: 0em 1em;
+}
+
+.secundario {
+    width: 25%;
+    float: left;
+    clear: none;
+    padding: 0em 1em;
+    margin-top: 5em;
+    margin-bottom: auto;
+}
+
+.iconos_redes {
+    float: left;
+    display: grid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.iconos_redes a{
+    width: 62%;
+}
+
+
+
+/* Por si se quiere hacer el Menu que se mueva */
+/*
+#menu {
+    position: fixed;
+    overflow: hidden;
+    margin-right: auto;
+    background-color: white;
+}
+*/
+
+
+
+
+
