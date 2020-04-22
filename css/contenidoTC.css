@@ -110,13 +110,10 @@ a:visited {
     width: 50%;
 }
 
-.carreras {
-    border-collapse: collapse;
-}
-
 .carreras_tabla {
     border-collapse: collapse;
     border-spacing: 0em;
+    margin: 0em auto;
 }
 
 .carreras_tabla .cabecera {
@@ -128,7 +125,7 @@ a:visited {
     border: 1px black solid;
     overflow: hidden;
     word-break: normal;
-    background-color: #ffdf72;
+    background-color: #FFEDB5;
 }
 
 .carreras_tabla .areas {
@@ -147,6 +144,7 @@ a:visited {
     font-family: cuerpo_Font;
     font-size: 14px;
     font-weight: normal;
+    text-align: center;
     padding: 10px 5px;
     border: 1px black solid;
     overflow: hidden;
