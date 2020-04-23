@@ -19,7 +19,7 @@ h2 {
     font-size: 250%;
     font-family: titulos_Font;
     margin: 0.2em;
-    color: #3D0907;
+    color: #782c2c;
 }
 
 h3 {
@@ -76,7 +76,7 @@ a:visited {
     color: #FFC000;
 }*/
 
-.lista_revistas {
+.lista {
     font-family: cuerpo_Font;
     font-size: 110%;
     text-align: justify;
@@ -102,20 +102,6 @@ article {
     text-align: justify;
     padding: 0em 1em;
     padding-bottom: 2em;
-}
-
-.iconos_redes {
-    text-align: center;
-}
-
-.iconos_redes img{
-    margin: auto 2em;
-    width: 50%;
-}
-
-.iconos_redes a{
-    margin: auto;
-    width: 50%;
 }
 
 .tabla {
@@ -162,10 +148,4 @@ article {
 
 #pie_tabla {
     text-align: left !important;
-}
-
-.lista {
-    font-family: cuerpo_Font;
-    font-size: 110%;
-    text-align: justify;
 }
