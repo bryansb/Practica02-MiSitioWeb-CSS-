@@ -1,0 +1,152 @@
+@font-face{
+    font-family: cuerpo_Font;
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+
+@font-face{
+    font-family: titulos_Font;
+    src: url("../fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: cuerpo_Font;
+    font-size: 110%;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 250%;
+    font-family: titulos_Font;
+    margin: 0.2em;
+    color: #3D0907;
+}
+
+h3 {
+    font-size: 175%;
+    color: #403B2D;    
+    margin: 0.2em;
+}
+
+input {
+    font-family: cuerpo_Font;
+    font-size: 125%;
+}
+
+span {
+    font-family: cuerpo_Font;
+}
+
+img {
+    width: 40%;
+    margin: 0.5em;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #3D0907;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFC000;
+}
+
+/*
+a:visited {
+    text-decoration: none;
+    color: #FFC000;
+}*/
+
+.lista_revistas {
+    font-family: cuerpo_Font;
+    font-size: 110%;
+    text-align: justify;
+}
+
+/* Menu */
+#menu{
+    border: 1px black solid;
+    font-family: titulos_Font;
+}
+
+/* Contenido */
+.contenido {
+    border: 1px black solid;
+    display: flex;
+}
+/*
+.principal {
+
+}*/
+
+.principal article {
+    text-align: justify;
+}
+
+.secundario {
+    border: 1px black solid;
+    display: grid;
+    text-align: justify;
+    padding: 0.2em;
+}
+
+.secundario h3{
+    text-align: center;
+}
+
+.iconos_redes {
+    text-align: center;
+}
+
+.iconos_redes img{
+    margin: auto 2em;
+    width: 50%;
+}
+
+.iconos_redes a{
+    margin: auto;
+    width: 50%;
+}
+
+.carreras_tabla {
+    border-collapse: collapse;
+    border-spacing: 0em;
+    margin: 0em auto;
+}
+
+.carreras_tabla .cabecera {
+    font-family: titulos_Font;
+    font-size: 15px;
+    text-align: center;
+    color: #4d080a;
+    padding: 10px 5px;
+    border: 1px black solid;
+    overflow: hidden;
+    word-break: normal;
+    background-color: #FFEDB5;
+}
+
+.carreras_tabla .areas {
+    font-family: titulos_Font;
+    font-size: 14px;
+    text-align: center;
+    color: #4d080a;
+    font-weight: normal;
+    padding: 10px 5px;
+    border: 1px black solid;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.carreras_tabla .carreras {
+    font-family: cuerpo_Font;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px black solid;
+    overflow: hidden;
+    word-break: normal;
+}
