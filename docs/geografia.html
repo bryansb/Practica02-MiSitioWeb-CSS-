@@ -3,41 +3,64 @@
     <head>
         <title>Geografía - Cuenca </title>
         <meta charset="utf-8" />
+        <link href="../css/comun.css" rel="stylesheet" >
+        <link href="../css/dosColumnas.css" rel="stylesheet" >
+        <link href="../css/contenidoDC.css" rel="stylesheet" >
     </head>
     <body>
-        <header>
-            <img src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+        <header id="cabecera">
+            <img id="logoPrincipal" src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+            
+            <form>
+                <input type="search" id="busqueda" name="busqueda" placeholder="Buscar">
+            </form>
+            
+            <div class="iconos_textos">
+                <img id="usuario" src="../images/logo_user.png" alt="usuario">
+                <span>Cuenta</span>
+            </div>
+
+            <div class="iconos_textos">
+                <img id="mensaje" src="../images/logo_mess.png" alt="mensaje">
+                <span>Mensajes</span>
+            </div>
+                
+            <div class="iconos_textos">
+                <img id="agregar" src="../images/logo_add.png" alt="agregar">
+                <span>Agregar</span>
+            </div>
+            
             <nav>
-                <a href="../index.html" > Inicio </a> &nbsp;
-                <a href="historia.html" > Historia </a> &nbsp;
-                <a href="geografia.html" > Geografía </a> &nbsp;
-                <a href="cultura.html" > Cultura </a> &nbsp;
-                <a href="turismo.html" > Turismo </a> &nbsp;
-                <a href="parques.html" > Parques Principales </a> &nbsp;
-                <a href="fiestas.html" > Fiestas Principales </a> &nbsp;
-                <a href="gastronomia.html" > Gastronomía </a> &nbsp;
-                <a href="educacion.html" > Educación Superior </a> &nbsp;
+                <ul>
+                    <li><a href="../index.html" > Inicio </a></li>
+                    <li><a href="historia.html" > Historia </a></li>
+                    <li><a href="geografia.html" > Geografía </a></li>
+                    <li><a href="cultura.html" > Cultura </a></li>
+                    <li><a href="turismo.html" > Turismo </a></li>
+                    <li><a href="parques.html" > Parques Principales </a></li>
+                    <li><a href="fiestas.html" > Fiestas Principales </a></li>
+                    <li><a href="gastronomia.html" > Gastronomía </a></li>
+                    <li><a href="educacion.html" > Educación Superior </a></li>
+                    <li><a href="educacion.html" > Contacto </a></li>
+                </ul>
             </nav>
         </header>
-        <h1 id="inicio_geografia">Geografía</h1>
-        <nav>
-            <ul>
-                <li><a href="geografia.html#asp_basicos"> Aspectos Básicos </a></li>
-                <li><a href="geografia.html#clima"> Clima e Hidrología </a></li>
-            </ul>
-        </nav>
-        <section>
-            <header>
-                <h2 id="asp_basicos"> Aspectos Básicos </h2>
-                <nav>
-                    <ul>
-                        <li><a href="geografia.html#datos"> Datos sobre Cuenca </a></li>
-                    </ul>
-                </nav>
-            </header>
+
+        <div id="menu">
+            <h3 id="inicio_secciones"> Secciones </h3>
+            <nav>
+                <ul>
+                    <li><a href="geografia.html#asp_basicos"> Aspectos Básicos </a></li>
+                    <li><a href="geografia.html#clima"> Clima e Hidrología </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="contenido">
+            <h2 id="asp_basicos"> Aspectos Básicos </h2>
             <article>
                 <h3 id="datos"> Datos Geograficos sobre Cuenca </h3>
-                <img src="../images/valle.jpg" width="600" alt="" />
+                <img src="../images/valle.jpg"  alt="" />
 
                 <p>
                     <strong>Limites</strong><br>
@@ -62,26 +85,18 @@
                         Más al noreste de la ciudad sus cuatro ríos se unen para formar un solo río,
                         el <em>Río Cuenca.</em>
                     </p>
+                    <nav>
+                        <a href="geografia.html#inicio_secciones">Regresar</a>
+                    </nav>
                 </aside>
-
-                <nav>
-                    <a href="geografia.html#asp_basicos">Regresar</a>
-                </nav>
             </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="clima"> Clima e Hidrología </h2>
-                <nav>
-                    <ul>
-                        <li><a href="geografia.html#factores"> Factores del Clima </a></li>
-                        <li><a href="geografia.html#inicio_geografia"> Volver al inicio </a></li>
-                    </ul>
-                </nav>
-            </header>
+        </div>
+
+        <div class="contenido">
+            <h2 id="clima"> Clima e Hidrología </h2>
             <article>
                 <h3 id="factores"> Factores del Clima </h3>
-                <img src="../images/rios.jpg" width="600" alt="" />
+                <img src="../images/rios.jpg"  alt="" />
 
                 <p>
                     <strong>Posición</strong><br>
@@ -100,49 +115,80 @@
                     El clima de la ciudad teniendo en cuenta los factores geográficos,
                     ronda alrededor de los 8 a 17 <sup>o</sup>C, que pueden variar debido
                     a factores meteorológicos o por la contaminación.
+                    <nav>
+                        <a href="geografia.html#inicio_secciones">Regresar</a>
+                    </nav>
                 </p>
 
                 <aside>
                     <h4> Clima promedio en Cuenca </h4>
-                    <table border="2">
-                        <caption>Tabla 1. Clima promedio en base a la estación climática</caption>
+                    <table class="tabla" id="temps">
                         <tr>
-                          <th rowspan="2">Estación</th>
-                          <th colspan="2">Temperatura promedio <sup>o</sup>C </th>
+                          <th class="cabecera" rowspan="2">Estación</th>
+                          <th class="cabecera" colspan="2">Temperatura promedio <sup>o</sup>C </th>
                         </tr>
                         <tr>
-                          <th>Baja</th>
-                          <th>Alta</th>
+                          <th class="cabecera">Baja</td>
+                          <th class="cabecera">Alta</td>
                         </tr>
                         <tr>
-                          <td>Seca*</td>
-                          <td>9.4</td>
-                          <td>20.2</td>
+                          <td class="lateral">Seca*</td>
+                          <td class="contenidos">9.4</td>
+                          <td class="contenidos">20.2</td>
                         </tr>
                         <tr>
-                          <td>Lluviosa**</td>
-                          <td>8.57</td>
-                          <td>20.7</td>
+                          <td class="lateral">Lluviosa**</td>
+                          <td class="contenidos">8.57</td>
+                          <td class="contenidos">20.7</td>
                         </tr>
                         <tr>
-                          <td colspan="3">*Seca, entre junio y diciembre<br>**Lluviosa, entre diciembre y junio</td>
+                          <td class="contenidos" colspan="3" id="pie_tabla">*Seca, entre junio y diciembre<br>**Lluviosa, entre diciembre y junio</td>
                         </tr>
-                      </table>
+                    </table>
                 </aside>
-
-                <nav>
-                    <a href="geografia.html#clima">Regresar</a>
-                </nav>
             </article>
-        </section>
-        <footer>
-            <p>
-                Sarmiento Basurto Douglas Bryan <br />
-                <a href="mailto:dsarmientob1@est.ups.edu.ec">dsarmientob1@est.ups.edu.ec</a> &#8226;
-                <a href="tel:+593996917211">+593996917211</a> <br />
-                Universidad Politécnica Salesiana <br />
-                &copy; Todos los derechos reservados
-            </p>
+        </div>
+
+        <footer id="pie">
+            <div class="cont_pie">
+                <div id="logo_pie">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/faceLogo.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/instaLogo.png" alt=""></a>
+                </div>
+                <img src="../images/logoSO.png" alt="">
+
+                <p>
+                    Sarmiento Basurto Douglas Bryan <br />
+                    Universidad Politécnica Salesiana <br />
+                    <span><strong>Correo :</strong><a href="mailto:dsarmientob1@est.ups.edu.ec"> dsarmientob1@est.ups.edu.ec</a></span> <br />
+                    <span><strong>Telf. :</strong><a href="tel:+593996917211"> +593996917211</a></span><br />
+                    &copy; Todos los derechos reservados
+                </p>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Acerca de Cuenca</legend>
+                    <nav>
+                        <a href="historia.html" > Historia </a>
+                        <a href="geografia.html" > Geografía </a>
+                        <a href="cultura.html" > Cultura </a>
+                        <a href="turismo.html" > Turismo </a>
+                    </nav>
+                </fieldset>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Universidades Principales</legend>
+                    <nav>
+                        <a href="educacion.html#ups" > Universidad Politécnica Salesiana </a>
+                        <a href="educacion.html#ucuenca" > Universidad Estatal de Cuenca </a>
+                        <a href="educacion.html#uda" > Universidad del Azuay </a>
+                        <a href="educacion.html#ucacue" > Universidad Católica de Cuenca </a>
+                    </nav>
+                </fieldset>
+            </div>
         </footer>
     </body>
 </html>

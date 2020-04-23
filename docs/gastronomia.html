@@ -3,41 +3,64 @@
     <head>
         <title>Gastronomía- Cuenca </title>
         <meta charset="utf-8" />
+        <link href="../css/comun.css" rel="stylesheet" >
+        <link href="../css/dosColumnas.css" rel="stylesheet" >
+        <link href="../css/contenidoDC.css" rel="stylesheet" >
     </head>
     <body>
-        <header>
-            <img src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+        <header id="cabecera">
+            <img id="logoPrincipal" src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+            
+            <form>
+                <input type="search" id="busqueda" name="busqueda" placeholder="Buscar">
+            </form>
+            
+            <div class="iconos_textos">
+                <img id="usuario" src="../images/logo_user.png" alt="usuario">
+                <span>Cuenta</span>
+            </div>
+
+            <div class="iconos_textos">
+                <img id="mensaje" src="../images/logo_mess.png" alt="mensaje">
+                <span>Mensajes</span>
+            </div>
+                
+            <div class="iconos_textos">
+                <img id="agregar" src="../images/logo_add.png" alt="agregar">
+                <span>Agregar</span>
+            </div>
+            
             <nav>
-                <a href="../index.html" > Inicio </a> &nbsp;
-                <a href="historia.html" > Historia </a> &nbsp;
-                <a href="geografia.html" > Geografía </a> &nbsp;
-                <a href="cultura.html" > Cultura </a> &nbsp;
-                <a href="turismo.html" > Turismo </a> &nbsp;
-                <a href="parques.html" > Parques Principales </a> &nbsp;
-                <a href="fiestas.html" > Fiestas Principales </a> &nbsp;
-                <a href="gastronomia.html" > Gastronomía </a> &nbsp;
-                <a href="educacion.html" > Educación Superior </a> &nbsp;
+                <ul>
+                    <li><a href="../index.html" > Inicio </a></li>
+                    <li><a href="historia.html" > Historia </a></li>
+                    <li><a href="geografia.html" > Geografía </a></li>
+                    <li><a href="cultura.html" > Cultura </a></li>
+                    <li><a href="turismo.html" > Turismo </a></li>
+                    <li><a href="parques.html" > Parques Principales </a></li>
+                    <li><a href="fiestas.html" > Fiestas Principales </a></li>
+                    <li><a href="gastronomia.html" > Gastronomía </a></li>
+                    <li><a href="educacion.html" > Educación Superior </a></li>
+                    <li><a href="educacion.html" > Contacto </a></li>
+                </ul>
             </nav>
         </header>
-        <h1 id="inicio_gastronomia">Gastronomía</h1>
-        <nav>
-            <ul>
-                <li><a href="gastronomia.html#tipicos"> Platos típicos </a></li>
-                <li><a href="gastronomia.html#aperitivos"> Aperitivos </a></li>
-            </ul>
-        </nav>
-         <section>
-            <header>
-                <h2 id="tipicos"> Platos típicos </h2>
-                <nav>
-                    <ul>
-                        <li><a href="gastronomia.html#chancuy"> El chancho y el cuy </a></li>
-                    </ul>
-                </nav>
-            </header>
+        
+        <div id="menu">
+            <h3 id="inicio_secciones"> Secciones </h3>
+            <nav>
+                <ul>
+                    <li><a href="gastronomia.html#tipicos"> Platos típicos </a></li>
+                    <li><a href="gastronomia.html#aperitivos"> Aperitivos </a></li>
+                </ul>
+            </nav>
+        </div>
+
+         <div class="contenido">
+            <h2 id="tipicos"> Platos típicos </h2>
             <article>
                 <h3 id="chancuy"> Chancho y Cuy </h3>
-                <img src="../images/cuy.jpg" height="350" alt="" />
+                <img src="../images/cuy.jpg" alt="" />
 
                 <p>
                     Cuando se habla de la gastronomia de Cuenca, lo primero que se nos viene a la mente
@@ -73,27 +96,19 @@
                     <h4> La gastronomía y el mes </h4>
                     <p>
                         Por lo general la gastronomía cuencana suele irse alternando dependiendo del mes del año en que se encuentren.
+                        <nav>
+                            <a href="gastronomia.html#inicio_secciones">Regresar</a>
+                        </nav>
                     </p>
                 </aside>
-
-                <nav>
-                    <a href="gastronomia.html#tipicos">Regresar</a>
-                </nav>
             </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="aperitivos"> Aperitivos </h2>
-                <nav>
-                    <ul>
-                        <li><a href="gastronomia.html#tortillas"> Tortillas y tamales </a></li>
-                        <li><a href="gastronomia.html#inicio_gastronomia"> Volver al inicio </a></li>
-                    </ul>
-                </nav>
-            </header>
+        </div>
+
+        <div class="contenido">
+            <h2 id="aperitivos"> Aperitivos </h2>
             <article>
                 <h3 id="tortillas"> Tortillas y tamales</h3>
-                <img src="../images/tortillas.jpg" height="350" alt="" />
+                <img src="../images/tortillas.jpg" alt="" />
 
                 <p>
                     Además de tener una amplia variedad de platos fuertes, la gastronomia
@@ -101,33 +116,66 @@
                     entre ellos contamos con:
                 </p>
 
-                <ul>
+                <ul class="lista">
                     <li>Tamales.</li>
                     <li>Tortillas de papa, maiz, choclo.</li>
                     <li>Chumales o humitas.</li>
                     <li>Mote pillo.</li>
                 </ul>
-                
-                <nav>
-                    <a href="gastronomia.html#aperitivos">Regresar</a>
-                </nav>
+
+                <aside>
+                    <h4> Dulces </h4>
+                    <p>
+                        Es bien sabido que aproximadamente en el mes de Junio es común ver puestos vendiendo varios tipos de dulces
+                        y bocaditos de ese estilo.
+                    </p>
+                    <nav>
+                        <a href="gastronomia.html#inicio_secciones">Regresar</a>
+                    </nav>
+                </aside>
             </article>
-            <aside>
-                <h3> Dulces </h3>
+        </div>
+
+        <footer id="pie">
+            <div class="cont_pie">
+                <div id="logo_pie">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/faceLogo.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/instaLogo.png" alt=""></a>
+                </div>
+                <img src="../images/logoSO.png" alt="">
+
                 <p>
-                    Es bien sabido que aproximadamente en el mes de Junio es común ver puestos vendiendo varios tipos de dulces
-                    y bocaditos de ese estilo.
+                    Sarmiento Basurto Douglas Bryan <br />
+                    Universidad Politécnica Salesiana <br />
+                    <span><strong>Correo :</strong><a href="mailto:dsarmientob1@est.ups.edu.ec"> dsarmientob1@est.ups.edu.ec</a></span> <br />
+                    <span><strong>Telf. :</strong><a href="tel:+593996917211"> +593996917211</a></span><br />
+                    &copy; Todos los derechos reservados
                 </p>
-            </aside>
-        </section>
-        <footer>
-            <p>
-                Sarmiento Basurto Douglas Bryan <br />
-                <a href="mailto:dsarmientob1@est.ups.edu.ec">dsarmientob1@est.ups.edu.ec</a> &#8226;
-                <a href="tel:+593996917211">+593996917211</a> <br />
-                Universidad Politécnica Salesiana <br />
-                &copy; Todos los derechos reservados
-            </p>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Acerca de Cuenca</legend>
+                    <nav>
+                        <a href="historia.html" > Historia </a>
+                        <a href="geografia.html" > Geografía </a>
+                        <a href="cultura.html" > Cultura </a>
+                        <a href="turismo.html" > Turismo </a>
+                    </nav>
+                </fieldset>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Universidades Principales</legend>
+                    <nav>
+                        <a href="educacion.html#ups" > Universidad Politécnica Salesiana </a>
+                        <a href="educacion.html#ucuenca" > Universidad Estatal de Cuenca </a>
+                        <a href="educacion.html#uda" > Universidad del Azuay </a>
+                        <a href="educacion.html#ucacue" > Universidad Católica de Cuenca </a>
+                    </nav>
+                </fieldset>
+            </div>
         </footer>
     </body>
 </html>

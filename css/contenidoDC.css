@@ -118,13 +118,14 @@ article {
     width: 50%;
 }
 
-.carreras_tabla {
+.tabla {
     border-collapse: collapse;
     border-spacing: 0em;
-    margin: 0em auto;
+    margin: 1em 1em;
+    width: 50%;
 }
 
-.carreras_tabla .cabecera {
+.tabla .cabecera {
     font-family: titulos_Font;
     font-size: 15px;
     text-align: center;
@@ -136,7 +137,7 @@ article {
     background-color: #FFEDB5;
 }
 
-.carreras_tabla .areas {
+.tabla .lateral {
     font-family: titulos_Font;
     font-size: 14px;
     text-align: center;
@@ -148,15 +149,19 @@ article {
     word-break: normal;
 }
 
-.carreras_tabla .carreras {
+.tabla .contenidos {
     font-family: cuerpo_Font;
     font-size: 14px;
-    font-weight: normal;
     text-align: center;
+    font-weight: normal;
     padding: 10px 5px;
     border: 1px black solid;
     overflow: hidden;
     word-break: normal;
+}
+
+#pie_tabla {
+    text-align: left !important;
 }
 
 .lista {
