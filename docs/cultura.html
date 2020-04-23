@@ -3,39 +3,71 @@
     <head>
         <title>Cultura - Cuenca </title>
         <meta charset="utf-8" />
+        <link href="../css/comun.css" rel="stylesheet" >
+        <link href="../css/dosColumnas.css" rel="stylesheet" >
+        <link href="../css/contenidoDC.css" rel="stylesheet" >
     </head>
     <body>
-        <header>
-            <img src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+        <header id="cabecera">
+            <img id="logoPrincipal" src="../images/logo.gif" width="1000" alt="Cuenca, la Atenas del Ecuador" />
+            
+            <form>
+                <input type="search" id="busqueda" name="busqueda" placeholder="Buscar">
+            </form>
+            
+            <div class="iconos_textos">
+                <img id="usuario" src="../images/logo_user.png" alt="usuario">
+                <span>Cuenta</span>
+            </div>
+
+            <div class="iconos_textos">
+                <img id="mensaje" src="../images/logo_mess.png" alt="mensaje">
+                <span>Mensajes</span>
+            </div>
+                
+            <div class="iconos_textos">
+                <img id="agregar" src="../images/logo_add.png" alt="agregar">
+                <span>Agregar</span>
+            </div>
+            
             <nav>
-                <a href="../index.html" > Inicio </a> &nbsp;
-                <a href="historia.html" > Historia </a> &nbsp;
-                <a href="geografia.html" > Geografía </a> &nbsp;
-                <a href="cultura.html" > Cultura </a> &nbsp;
-                <a href="turismo.html" > Turismo </a> &nbsp;
-                <a href="parques.html" > Parques Principales </a> &nbsp;
-                <a href="fiestas.html" > Fiestas Principales </a> &nbsp;
-                <a href="gastronomia.html" > Gastronomía </a> &nbsp;
-                <a href="educacion.html" > Educación Superior </a> &nbsp;
+                <ul>
+                    <li><a href="../index.html" > Inicio </a></li>
+                    <li><a href="historia.html" > Historia </a></li>
+                    <li><a href="geografia.html" > Geografía </a></li>
+                    <li><a href="cultura.html" > Cultura </a></li>
+                    <li><a href="turismo.html" > Turismo </a></li>
+                    <li><a href="parques.html" > Parques Principales </a></li>
+                    <li><a href="fiestas.html" > Fiestas Principales </a></li>
+                    <li><a href="gastronomia.html" > Gastronomía </a></li>
+                    <li><a href="educacion.html" > Educación Superior </a></li>
+                    <li><a href="educacion.html" > Contacto </a></li>
+                </ul>
             </nav>
         </header>
-        <h1 id="inicio_cultura">Cultura</h1>
-        <nav>
-            <ul>
-                <li><a href="cultura.html#p_iglesias"> Principales Iglesias </a></li>
-                <li><a href="cultura.html#p_museos"> Principales Museos </a></li>
-            </ul>
-        </nav>
-        <section>
-            <header>
-                <h2 id="p_iglesias"> Principales Iglesias </h2>
-                <nav>
-                    <ul>
-                        <li><a href="cultura.html#catedral"> Catedral </a></li>
-                        <li><a href="cultura.html#iglesias"> Iglesias </a></li>
-                    </ul>
-                </nav>
-            </header>
+        
+        <div id="menu">
+            <h3 id="inicio_secciones"> Secciones </h3>
+            <nav>
+                <ul>
+                    <li><a href="cultura.html#p_iglesias"> Principales Iglesias </a>
+                        <ul>
+                            <li><a href="cultura.html#catedral"> Catedral </a></li>
+                            <li><a href="cultura.html#iglesias"> Iglesias </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="cultura.html#p_museos"> Principales Museos </a>
+                        <ul>
+                            <li><a href="cultura.html#m_pumapungo"> Pumapungo </a></li>
+                            <li><a href="cultura.html#m_museos">  Museos </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="contenido">
+            <h2 id="p_iglesias"> Principales Iglesias </h2>
             <article>
                 <h3 id="catedral"> Catedral </h3>
                 <img src="../images/catedral.jpg" height="350" alt="" />
@@ -56,10 +88,6 @@
                         que la decoran, y así obtener una vista del paisaje que rodea a la Catedral.
                     </p>
                 </aside>
-
-                <nav>
-                    <a href="cultura.html#p_iglesias">Regresar</a>
-                </nav>
             </article>
             <article>
                 <h3 id="iglesias"> Iglesias </h3>
@@ -71,7 +99,7 @@
                     también varias rutas turísticas para aquellos que les guste la arquitectura.
                 </p>
 
-                <ul>
+                <ul class="lista">
                     <li>Iglesia San Sebastián</li>
                     <li>Iglesia Santo Cenáculo</li>
                     <li>Iglesia Santo Domingo</li>
@@ -81,23 +109,16 @@
                     <li>Iglesia San Blas</li>
                     <li>Iglesia de Turi</li>
                 </ul>
-                
-                <nav>
-                    <a href="cultura.html#p_iglesias">Regresar</a>
-                </nav>
+                <p>
+                    <nav>
+                        <a href="cultura.html#inicio_secciones">Regresar</a>
+                    </nav>
+                </p>
             </article>
-        </section>
-        <section>
-            <header>
-                <h2 id="p_museos"> Principales Museos </h2>
-                <nav>
-                    <ul>
-                        <li><a href="cultura.html#m_pumapungo"> Pumapungo </a></li>
-                        <li><a href="cultura.html#m_museos">  Museos </a></li>
-                        <li><a href="cultura.html#inicio_cultura"> Volver al inicio </a></li>
-                    </ul>
-                </nav>
-            </header>
+        </div>
+
+        <div class="contenido">
+            <h2 id="p_museos"> Principales Museos </h2>
             <article>
                 <h3 id="m_pumapungo"> Pumapungo </h3>
                 <img src="../images/museo.jpg" height="350" alt="" />
@@ -109,7 +130,7 @@
                     plasmado en sus exhibiciones. Cuenta con cinco secciones.
                 </p>
 
-                <ul>
+                <ul class="lista">
                     <li> <strong> Sala Pumapunku, </strong> Exposiciones de artesanías. </li>
                     <li> <strong> Sala nacional de Etnografía, </strong> Muestra diversas etnias. </li>
                     <li> <strong> Sala de Arte, </strong> Contiene esculturas y pinturas. </li>
@@ -121,12 +142,8 @@
                     En el siguiente video puedes obtener una mejor vista del interior del gran museo, además de 
                     algunas de sus colecciones en cuanto a música, arte, culturas del ecuador, entre otros.
                 </p>
-
                 <video src="../videos/museo_pumapungo.mp4" width="640" height="480" controls></video>
-
-                <nav>
-                    <a href="cultura.html#p_museos">Regresar</a>
-                </nav>
+                
             </article>
             <article>
                 <h3 id="m_museos"> Museos </h3>
@@ -140,7 +157,7 @@
                     pequeño costo de ingreso, que rondan los dos dólares americanos.
                 </p>
 
-                <ul>
+                <ul class="lista">
                     <li><b>De Historia de la Medicina: </b>Expone la trayectoria médica local.</li>
                     <li><b>De Esqueletología: </b>Expone alrededor de 150 exqueletos de diferentes especies.</li>
                     <li><b>De las Conceptas: </b>Expone piezas de arte religioso.</li>
@@ -155,22 +172,54 @@
                         El mismo consta de dos salas, en una se encuentran colecciones
                         relacionadas con Ciencias Naturales, y en la otra relacionado con
                         la Arqueología.
+                        <nav>
+                            <a href="cultura.html#inicio_secciones">Regresar</a>
+                        </nav>
                     </p>
                 </aside>
-
-                <nav>
-                    <a href="cultura.html#p_museos">Regresar</a>
-                </nav>
             </article>
-        </section>
-        <footer>
-            <p>
-                Sarmiento Basurto Douglas Bryan <br />
-                <a href="mailto:dsarmientob1@est.ups.edu.ec">dsarmientob1@est.ups.edu.ec</a> &#8226;
-                <a href="tel:+593996917211">+593996917211</a> <br />
-                Universidad Politécnica Salesiana <br />
-                &copy; Todos los derechos reservados
-            </p>
+        </div>
+
+        <footer id="pie">
+            <div class="cont_pie">
+                <div id="logo_pie">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/faceLogo.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/instaLogo.png" alt=""></a>
+                </div>
+                <img src="../images/logoSO.png" alt="">
+
+                <p>
+                    Sarmiento Basurto Douglas Bryan <br />
+                    Universidad Politécnica Salesiana <br />
+                    <span><strong>Correo :</strong><a href="mailto:dsarmientob1@est.ups.edu.ec"> dsarmientob1@est.ups.edu.ec</a></span> <br />
+                    <span><strong>Telf. :</strong><a href="tel:+593996917211"> +593996917211</a></span><br />
+                    &copy; Todos los derechos reservados
+                </p>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Acerca de Cuenca</legend>
+                    <nav>
+                        <a href="historia.html" > Historia </a>
+                        <a href="geografia.html" > Geografía </a>
+                        <a href="cultura.html" > Cultura </a>
+                        <a href="turismo.html" > Turismo </a>
+                    </nav>
+                </fieldset>
+            </div>
+
+            <div class="cont_pie">
+                <fieldset>
+                    <legend>Universidades Principales</legend>
+                    <nav>
+                        <a href="educacion.html#ups" > Universidad Politécnica Salesiana </a>
+                        <a href="educacion.html#ucuenca" > Universidad Estatal de Cuenca </a>
+                        <a href="educacion.html#uda" > Universidad del Azuay </a>
+                        <a href="educacion.html#ucacue" > Universidad Católica de Cuenca </a>
+                    </nav>
+                </fieldset>
+            </div>
         </footer>
     </body>
 </html>

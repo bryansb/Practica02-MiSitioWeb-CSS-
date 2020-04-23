@@ -25,3 +25,7 @@ body {
     margin-left: 1em;
     margin-bottom: 2em;
 }
+
+#contenedor_interno {
+	margin: 0em 25%;
+}
