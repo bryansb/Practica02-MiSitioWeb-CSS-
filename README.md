@@ -245,4 +245,6 @@ Anteriormente se mostró principalmente las reglas que definían la estructura, 
 - Revisar la documentación de apoyo, para así tener mejor entendimiento del tema.
 - Haber asistido a las clases de la asignatura.
 
-![imagen](/recursos/31.png)
+**Estudiante:** Sarmiento Douglas Bryan Sarmiento
+
+![imagen](/recursos/31.jpg)
