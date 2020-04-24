@@ -21,6 +21,7 @@ html {
     background-size: cover;*/
     background-color: whitesmoke;
 }
+
 #cabecera a {
     font-family: menu_Font;
     font-size: 94%;
@@ -44,40 +45,38 @@ Estructura
     display: inline-block;
     width: 100%;
 }
-
 #cabecera nav{
     float: left;
     clear: both;
     margin: 0 auto;
 }
-
 #cabecera nav ul li{
     display: table-cell;
 	width: 10%;
     padding-left: 0.1em;
     padding-right: 0.1em;
 }
-
 #cabecera nav ul{
     padding-left: 1.5em;
 }
-
 #cabecera nav ul li a{
     margin: 0em;
     display: block;
 }
-
 #cabecera form #busqueda {
     float: left;
     width: 40%;
     margin: 1.5em 4em;
 }
-
 .iconos_textos {
     float: left;
     display: grid;
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
+}
+header img {
+    width: 27%;
+    float: left;
 }
 
 /* Footer */
@@ -85,34 +84,38 @@ Estructura
     width: 100%;
     display: flex;
 }
-
 #pie span a{
     color: #3D0907;
 }
-
 #pie a:hover {
     color: #FFC000;
-    text-decoration: none;
+    text-decoration: underline;
 }
-
+#pie a:focus {
+    color: #ffe166;
+    text-decoration: underline;
+}
 .cont_pie {
     width: 20%;
     display: grid;
     margin: auto;
 }
-
 .cont_pie #logo_pie {
     margin-left: auto;
     margin-right: auto;
     padding: 0.5em 2em 0.5em 2em;
 }
-
 .cont_pie nav a {
     display: grid;
     padding: 0.1em;
     font-size: 110%;
     text-decoration: none;
     color: #3D0907;
+}
+.cont_pie img{
+    margin: auto;
+    width: auto;
+    padding: 0.5em 0.5em;
 }
 
 /* 
@@ -131,11 +134,13 @@ Estructura
 }
 
 #cabecera nav ul li a:hover {
-    background-color: #FD281B;
+    background-color: #fc271c;
+    color: #FFDF72;
 }
 
 #cabecera nav ul li a:focus {
-    background-color: #FFC000;
+    background-color: #782c2c;
+    color: whitesmoke;
 }
 
 .iconos_textos {
@@ -146,10 +151,6 @@ Estructura
     Imagenes
 */
 /* Header */
-header img {
-    width: 27%;
-    float: left;
-}
 
 #usuario, #mensaje, #agregar {
     width: 50px !important;
@@ -158,11 +159,7 @@ header img {
 }
 
 /* Footer */
-.cont_pie img{
-    margin: auto;
-    width: auto;
-    padding: 0.5em 0.5em;
-}
+
 
 .cont_pie #logo_pie img{
     width: 50px;
