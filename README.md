@@ -36,6 +36,8 @@ Todas las páginas web se adaptaron a la nueva configuración, por lo que se som
 
 Además, se crearon 9 hojas de estilos CSS: home.css, contenidoHome.css, dosColumnas.css, contenidoDC.css, tresColumnas.css, contenidoTC.css, formulario.css, contenidoFormulario.css y común.css.
 
+![imagen](/images/bandera.png)
+
 4. **Generar el archivo README del repositorio de GitHub.**
 
 El archivo README se creó junto con el repositorio, el mismo tendrá la información presente en este informe.
