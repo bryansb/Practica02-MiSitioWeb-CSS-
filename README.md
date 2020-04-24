@@ -36,7 +36,43 @@ Todas las páginas web se adaptaron a la nueva configuración, por lo que se som
 
 Además, se crearon 9 hojas de estilos CSS: home.css, contenidoHome.css, dosColumnas.css, contenidoDC.css, tresColumnas.css, contenidoTC.css, formulario.css, contenidoFormulario.css y común.css.
 
-![imagen](/images/bandera.png)
+![imagen](/recursos/v1.png)
+
+![imagen](/recursos/v2.png)
+
+![imagen](/recursos/v3.png)
+
+![imagen](/recursos/v4.png)
+
+![imagen](/recursos/v5.png)
+
+![imagen](/recursos/v6.png)
+
+![imagen](/recursos/v7.png)
+
+![imagen](/recursos/v8.png)
+
+![imagen](/recursos/v9.png)
+
+![imagen](/recursos/v10.png)
+
+![imagen](/recursos/v11.png)
+
+![imagen](/recursos/v12.png)
+
+![imagen](/recursos/v13.png)
+
+![imagen](/recursos/v14.png)
+
+![imagen](/recursos/v15.png)
+
+![imagen](/recursos/v16.png)
+
+![imagen](/recursos/v17.png)
+
+![imagen](/recursos/v18.png)
+
+![imagen](/recursos/v19.png)
 
 4. **Generar el archivo README del repositorio de GitHub.**
 
